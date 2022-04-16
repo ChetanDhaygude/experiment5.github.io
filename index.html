@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="exp_5.css">
+</head>
+<body>
+    <br>
+    <br>
+    <form action="blank">
+        <label for="fname"><b>First name</b></label>
+        <input type="text" placeholder="enter first name" name="fname"
+        id="fname" required> <br> <br>
+        <label for="lname"><b>Last name</b></label>
+        <input type="text" placeholder="enter last name" name="lname"
+        id="lname" required> <br><br>
+        <label for="course"><b>Course</b></label>
+        <select name="course" id="course">
+            <option value="course">COURSE</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="B.TECH">B.TECH</option>
+        </select>
+        <br>
+        <br>
+        <label for="gender"><B>Gender:</B></label><br>
+        <input type="radio" name="gender">Male <br>
+        <input type="radio" name="gender">Female <br>
+        <input type="radio" name="gender">Others <br>
+        <br><br>
+        <label for="phone"><b>Phone:</b></label>
+        <input type="text" name="country code" value="+91" size="12">
+        <!-- <input type="text" name="phone" id="Phone" size="10"> <br> <br> -->
+        <b>Address:-</b>
+        <br>
+        <textarea name="address" id="address" cols="20" rows="10" placeholder="Enter The Address Here...."></textarea> <br> <br>
+        <b> Password:</b>
+        <input type="password" id="pass" name="pass" size="10" placeholder="XXXXXXXX"> <br> <br>
+        <b>Re-Type Password:</b>
+        <input type="password" id="repass" name="repass" size="10" placeholder="XXXXXXXX"> <br> <br>
+        <input type="button" value="Submit">
+
+    </form>
+</body>
+</html>
